@@ -12,13 +12,7 @@
       background-color:#aaa5ef;
       transition: 0.7s;
    }
-   .resultsbutton{
-   padding:10px;
-   }
-   .resultsbutton:hover{
-   background-color:#aaa5ef;
-      transition: 0.7s;
-   }
+   
    
 /* styles for desktop*/
    @media only screen  and (min-width: 1000px){
@@ -60,6 +54,14 @@
 	border: none;
 	background: #cce5ef;
 	}
+
+.resultsbutton{
+   padding:10px;
+   }
+   .resultsbutton:hover{
+   background-color:#aaa5ef;
+      transition: 0.7s;
+   }
 	   
    }
 
@@ -102,6 +104,10 @@
 	border: none;
 	background: #cce5ef;
 	}
+
+.resultsbutton{
+   width:100%;
+ }
 
  }
    
