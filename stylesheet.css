@@ -7,55 +7,48 @@
    
    
 /* styles for desktop*/
-   @media only screen  and (min-width: 1000px){
+   @media only screen  and (min-width: 800px){
 	 .sidebar {
 	position: fixed;
 	width: 10%;
-	height: 100vh;
-	background: #cce5ef;
-	
-	font-size: 1em;
+	height: auto;
+	background: #cce5ef;	
+	font-size: .8em;
 	}
 	.quiz {
 	position: relative;
-	width: 87%;
+	width: 86%;
 	float: right;
-	height: 100vh;
+	height: auto;
 	padding:20px;
 	}
 	ul{
 	list-style-type: none;
-	padding: 10px;
+	padding:0px;
 	}
 	
 	ul li {
 	color: darkblue;
-	margin: 3px;
+	
 	}
 	
 	ul li a{
 	display:block;
 	text-decoration: none;
 	text-align:center;
+	padding: 5px 5px;
 	}
 
-	button{
-	color: darkblue;
-	padding:10px;
-	border: none;
-	background: #cce5ef;
-	}
+	
 
 .resultsbutton{
+	color: darkblue;
+	border: none;
+	background: #cce5ef;
    padding:10px;
    }
    .resultsbutton:hover{
    background-color:#aaa5ef;
-      transition: 0.7s;
-   }
-
-.button:hover {
-      background-color:#aaa5ef;
       transition: 0.7s;
    }
    .navlink:hover {
@@ -66,47 +59,51 @@
    }
 
 /* styles for smartphones and tablets */
-   @media only screen  and (max-width: 1000px){
+   @media only screen  and (max-width: 800px){
+	   body { 
+    padding-top: 150px; 
+}
 	  .sidebar {
-	position: relative;
+	
+	position: fixed;
+	z-index:1;
 	width: 100%;
-	height: 10vh;
 	background: #cce5ef;
-	font-size: 1em;
+	font-size: .8em;
+	left:0;
+	top:0;
+	padding-bottom:20px;
+	
 	} 
 	.quiz {
 	position: relative;
 	width: 100%;
-	float: left;
-	height: 90vh;
+	float:left;
+	
 	}
 	ul{
 	list-style-type: none;
 	padding: 10px;
-display: inline;
 	}
 	
 	ul li {
 	color: darkblue;
-	margin: 3px;
-display: inline;
+	
+	float:left;
 	}
 	
 	ul li a{
-	display:block;
+	display:inline-block;
 	text-decoration: none;
 	text-align:center;
+	padding: 5px 5px;
 	}
 
-	
-	button{
+.resultsbutton{
 	color: darkblue;
 	padding:10px;
 	border: none;
 	background: #cce5ef;
-	}
-
-.resultsbutton{
 display: block;
    width:100%;
 height:30px;
