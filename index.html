@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="stylesheet.css">
+	
+    <script src="script.js">	
+	</script>
+	
+	<script>
+	const correctAnswers = ['A', 'C', 'B','C','B','D','C','D','B','A','B','B','B','A','B','C','C','A','A','B','A','D','A','C'];
+	</script>
+	
+</head>
+<body>
+<main class="main">
+  <aside class="sidebar">
+    <nav class="nav">
+      <ul>	  
+	  <li><button class="button" type="button" onclick="nextquiz()">Random Quiz</button><li>
+        <li><a class="navlink" href="quiz1.html">Quiz 1</a></li>
+        <li><a class="navlink" href="quiz2.html">Quiz 2</a></li>
+        <li><a class="navlink" href="quiz3.html">Quiz 3</a></li>
+		<li><a class="navlink" href="quiz4.html">Quiz 4</a></li>
+		<li><a class="navlink" href="quiz5.html">Quiz 5</a></li>
+		<li><a class="navlink" href="quiz6.html">Quiz 6</a></li>
+		<li><a class="navlink" href="quiz7.html">Quiz 7</a></li>
+		<li><a class="navlink" href="quiz8.html">Quiz 8</a></li>
+		<li><a class="navlink" href="quiz9.html">Quiz 9</a></li>
+		<li><a class="navlink" href="quiz10.html">Quiz 10</a></li>
+		<li><a class="navlink" href="quiz11.html">Quiz 11</a></li>
+		<li><a class="navlink" href="quiz12.html">Quiz 12</a></li>
+		<li><a class="navlink" href="quiz13.html">Quiz 13</a></li>
+		<li><a class="navlink" href="quiz14.html">Quiz 14</a></li>
+		<li><a class="navlink" href="quiz15.html">Quiz 15</a></li>
+		<li><a class="navlink" href="quiz16.html">Quiz 16</a></li>
+		<li><a class="navlink" href="quiz17.html">Quiz 17</a></li>
+		<li><a class="navlink" href="quiz18.html">Quiz 18</a></li>
+		<li><a class="navlink" href="quiz19.html">Quiz 19</a></li>
+		<li><a class="navlink" href="quiz20.html">Quiz 20</a></li>
+		<li><a class="navlink" href="quiz21.html">Quiz 21</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <section class="quiz">
+    <h1>Quiz 1</h1>
+    <form id="quiz-form">
+        <div>
+            <p>1. Which flag has a white cross on a blue background?</p>
+            <label id="question1-A"><input class="radio" type="radio" name="question1" value="A"> A. Scottish</label><br>
+            <label id="question1-B"><input class="radio" type="radio" name="question1" value="B"> B. English</label><br>
+            <label id="question1-C"><input class="radio" type="radio" name="question1" value="C"> C. Welsh</label><br>
+            <label id="question1-D"><input class="radio" type="radio" name="question1" value="D"> D. Irish</label><br>
+            <p id="result1"></p>
+        </div>
+        <div>
+            <p>2. Where is the Cenotaph located?</p>
+            <label id="question2-A"><input class="radio" type="radio" name="question2" value="A"> A. Dorset</label><br>
+            <label id="question2-B"><input class="radio" type="radio" name="question2" value="B"> B. Trafalgar Square</label><br>
+            <label id="question2-C"><input class="radio" type="radio" name="question2" value="C"> C. Whitehall</label><br>
+            <label id="question2-D"><input class="radio" type="radio" name="question2" value="D"> D. Wiltshire</label><br>
+           <p id="result2"></p>
+        </div>
+        <div>
+            <p>3. Who was Queen Elizabeth II married to?</p>
+            <label id="question3-A"><input class="radio" type="radio" name="question3" value="A"> A. Prince William</label><br>
+            <label id="question3-B"><input class="radio" type="radio" name="question3" value="B"> B. Prince Philip</label><br>
+            <label id="question3-C"><input class="radio" type="radio" name="question3" value="C"> C. Prince Charles</label><br>
+            <label id="question3-D"><input class="radio" type="radio" name="question3" value="D"> D. Prince Albert</label><br>
+           <p id="result3"></p>
+        </div>
+        <div>
+            <p>4. Hanukkah is celebrated to remember the Jews' struggle for religious freedom. It is celebrated in November or December. How many nights and days does it last?</p>
+            <label id="question4-A"><input class="radio" type="radio" name="question4" value="A"> A. 6</label><br>
+            <label id="question4-B"><input class="radio" type="radio" name="question4" value="B"> B. 7</label><br>
+            <label id="question4-C"><input class="radio" type="radio" name="question4" value="C"> C. 8</label><br>
+            <label id="question4-D"><input class="radio" type="radio" name="question4" value="D"> D. 9</label><br>
+           <p id="result4"></p>
+        </div>
+        <div>
+            <p>5. What happens to any driver who either has taken more than the acceptable quantity of alcohol or refuses to take the test?</p>
+            <label id="question5-A"><input class="radio" type="radio" name="question5" value="A"> A. Taken home</label><br>
+            <label id="question5-B"><input class="radio" type="radio" name="question5" value="B"> B. Arrested</label><br>
+            <label id="question5-C"><input class="radio" type="radio" name="question5" value="C"> C. Given a warning</label><br>
+            <label id="question5-D"><input class="radio" type="radio" name="question5" value="D"> D. Asked to provide medical certificate</label><br>
+            <p id="result5"></p>
+        </div>
+        <div>
+            <p>6. In which century did Wales and England get united?</p>
+            <label id="question6-A"><input class="radio" type="radio" name="question6" value="A"> A. 12th Century</label><br>
+            <label id="question6-B"><input class="radio" type="radio" name="question6" value="B"> B. 13th Century</label><br>
+            <label id="question6-C"><input class="radio" type="radio" name="question6" value="C"> C. 14th Century</label><br>
+            <label id="question6-D"><input class="radio" type="radio" name="question6" value="D"> D. 15th Century</label><br>
+            <p id="result6"></p>
+        </div>
+        <div>
+            <p>7. Which TWO records tell us about England during the time of William I?</p>
+            <label id="question7-A"><input class="checkbox" type="checkbox" name="question7" value="A"> A. Magna Carta</label><br>
+            <label id="question7-B"><input class="checkbox" type="checkbox" name="question7" value="B"> B. Canterbury Tales</label><br>
+            <label id="question7-C"><input class="checkbox" type="checkbox" name="question7" value="C"> C. Bayeux Tapestry</label><br>
+            <label id="question7-D"><input class="checkbox" type="checkbox" name="question7" value="D"> D. Domesday Book</label><br>
+            <p id="result7"></p>
+        </div>
+        <div>
+            <p>8. King Edward I of England annexed Wales to the Crown of England by which statute?</p>
+            <label id="question8-A"><input class="radio" type="radio" name="question8" value="A"> A. Statute of Cardiff</label><br>
+            <label id="question8-B"><input class="radio" type="radio" name="question8" value="B"> B. Statute of Carmarthen</label><br>
+            <label id="question8-C"><input class="radio" type="radio" name="question8" value="C"> C. Statute of Gwynedd</label><br>
+            <label id="question8-D"><input class="radio" type="radio" name="question8" value="D"> D. Statute of Rhuddlan</label><br>
+           <p id="result8"></p>
+        </div>
+        <div>
+            <p>9. Which of the following statements is correct?</p>
+            <label id="question9-A"><input class="radio" type="radio" name="question9" value="A"> A. The first person to use the title Prime Minister was Sir Christopher Wren</label><br>
+            <label id="question9-B"><input class="radio" type="radio" name="question9" value="B"> B. The first person to use the title Prime Minister was Sir Robert Walpole</label><br>
+            <p id="result9"></p>
+        </div>
+        <div>
+            <p>10. Who were the Jutes, Angles and Saxons?</p>
+            <label id="question10-A"><input class="radio" type="radio" name="question10" value="A"> A. Tribespeople from Northern Europe</label><br>
+            <label id="question10-B"><input class="radio" type="radio" name="question10" value="B"> B. Romans</label><br>
+            <label id="question10-C"><input class="radio" type="radio" name="question10" value="C"> C. Tribespeople from India</label><br>
+            <label id="question10-D"><input class="radio" type="radio" name="question10" value="D"> D. Tribespeople from Eastern Europe</label><br>
+            <p id="result10"></p>
+        </div>
+        <div>
+            <p>11. Which TWO points about slavery are correct?</p>
+            <label id="question11-A"><input class="checkbox" type="checkbox" name="question11" value="A"> A. Slavery survived in the British Empire until the early 20th Century</label><br>
+            <label id="question11-B"><input class="checkbox" type="checkbox" name="question11" value="B"> B. Quakers set up the first British anti-slavery group and campaign</label><br>
+            <label id="question11-C"><input class="checkbox" type="checkbox" name="question11" value="C"> C. William Wilberforce was a leading abolitionist</label><br>
+            <label id="question11-D"><input class="checkbox" type="checkbox" name="question11" value="D"> D. The Royal Navy refused to stop ships carrying slaves</label><br>
+            <p id="result11"></p>
+        </div>
+        <div>
+            <p>12. Which of the following statements is correct?</p>
+            <label id="question12-A"><input class="radio" type="radio" name="question12" value="A"> A. Police and Crime Commissioners (PCCs) are appointed by the local council.</label><br>
+            <label id="question12-B"><input class="radio" type="radio" name="question12" value="B"> B. Police and Crime Commissioners (PCCs) are appointed through a public election.</label><br>
+            <p id="result12"></p>
+        </div>
+        <div>
+            <p>13. The 100 days before Easter are known as Lent. It is a time when Christians take time to reflect and prepare for Easter. Traditionally, people fast during this period.</p>
+            <label id="question13-A"><input class="radio" type="radio" name="question13" value="A"> A. True</label><br>
+            <label id="question13-B"><input class="radio" type="radio" name="question13" value="B"> B. False</label><br>
+           <p id="result13"></p>
+        </div>
+        <div>
+            <p>14. Is this TRUE or FALSE? The modern sport of Rugby originated in England in the early 19th century.</p>
+            <label id="question14-A"><input class="radio" type="radio" name="question14" value="A"> A. True</label><br>
+            <label id="question14-B"><input class="radio" type="radio" name="question14" value="B"> B. False</label><br>
+             <p id="result14"></p>
+        </div>
+        <div>
+            <p>15. Who invented the Internet as we know it today? (World Wide Web)</p>
+            <label id="question15-A"><input class="radio" type="radio" name="question15" value="A"> A. Peter Mansfield</label><br>
+            <label id="question15-B"><input class="radio" type="radio" name="question15" value="B"> B. Sir Tim Berners-Lee</label><br>
+            <label id="question15-C"><input class="radio" type="radio" name="question15" value="C"> C. Clement Atlee</label><br>
+            <label id="question15-D"><input class="radio" type="radio" name="question15" value="D"> D. Wilfred Owen</label><br>
+            <p id="result15"></p>
+        </div>
+        <div>
+            <p>16. Which country's national flower is a thistle?</p>
+            <label id="question16-A"><input class="radio" type="radio" name="question16" value="A"> A. Wales</label><br>
+            <label id="question16-B"><input class="radio" type="radio" name="question16" value="B"> B. England</label><br>
+            <label id="question16-C"><input class="radio" type="radio" name="question16" value="C"> C. Scotland</label><br>
+            <label id="question16-D"><input class="radio" type="radio" name="question16" value="D"> D. Northern Ireland</label><br>
+            <p id="result16"></p>
+        </div>
+        <div>
+            <p>17. Who succeeded Margaret Thatcher as Prime Minister?</p>
+            <label id="question17-A"><input class="radio" type="radio" name="question17" value="A"> A. Kenneth Baker</label><br>
+            <label id="question17-B"><input class="radio" type="radio" name="question17" value="B"> B. Douglas Hurd</label><br>
+            <label id="question17-C"><input class="radio" type="radio" name="question17" value="C"> C. John Major</label><br>
+            <label id="question17-D"><input class="radio" type="radio" name="question17" value="D"> D. Norman Tebbit</label><br>
+            <p id="result17"></p>
+        </div>
+        <div>
+            <p>18. Is the following statement TRUE or FALSE? People over 75 can apply for a free TV licence, and blind people can get a 50% discount.</p>
+            <label id="question18-A"><input class="radio" type="radio" name="question18" value="A"> A. True</label><br>
+            <label id="question18-B"><input class="radio" type="radio" name="question18" value="B"> B. False</label><br>
+            <p id="result18"></p>
+        </div>
+        <div>
+            <p>19. How old do you have to be to go into betting shops or gambling clubs?</p>
+            <label id="question19-A"><input class="radio" type="radio" name="question19" value="A"> A. 18</label><br>
+            <label id="question19-B"><input class="radio" type="radio" name="question19" value="B"> 8. 20</label><br>
+            <label id="question19-C"><input class="radio" type="radio" name="question19" value="C"> C. 16</label><br>
+			<label id="question19-D"><input class="radio" type="radio" name="question19" value="D"> D. 21</label><br>
+            <p id="result19"></p>
+        </div>
+        <div>
+            <p>20. What is an example of a Criminal Offence?</p>
+            <label id="question20-A"><input class="radio" type="radio" name="question20" value="A"> A. Discrimination in the office</label><br>
+            <label id="question20-B"><input class="radio" type="radio" name="question20" value="B"> B. Selling tobacco to under 18's</label><br>
+            <label id="question20-C"><input class="radio" type="radio" name="question20" value="C"> C. Owing money</label><br>
+            <label id="question20-D"><input class="radio" type="radio" name="question20" value="D"> D. Housing disputes</label><br>
+            <p id="result20"></p>
+        </div>
+        <div>
+            <p>21. The Corn Laws were repealed in 1846. They prevented the import of cheap grain.</p>
+            <label id="question21-A"><input class="radio" type="radio" name="question21" value="A"> A. True</label><br>
+            <label id="question21-B"><input class="radio" type="radio" name="question21" value="B"> B. False</label><br>
+            <p id="result21"></p>
+        </div>
+        <div>
+            <p>22. Which of these is correct in the chronological order?</p>
+            <label id="question22-A"><input class="radio" type="radio" name="question22" value="A"> A. The Black Death, Canterbury Tales, Magna Carta</label><br>
+            <label id="question22-B"><input class="radio" type="radio" name="question22" value="B"> B. The Black Death, Magna Carta, Canterbury Tales</label><br>
+            <label id="question22-C"><input class="radio" type="radio" name="question22" value="C"> C. Canterbury Tales, the Black Death, Magna Carta</label><br>
+            <label id="question22-D"><input class="radio" type="radio" name="question22" value="D"> D. Magna Carta, the Black Death, Canterbury Tales</label><br>
+           <p id="result22"></p>
+        </div>
+        <div>
+            <p>23. What did R. A. Butler introduce?</p>
+            <label id="question23-A"><input class="radio" type="radio" name="question23" value="A"> A. Free secondary education in England</label><br>
+            <label id="question23-B"><input class="radio" type="radio" name="question23" value="B"> B. Free college education in Scotland</label><br>
+            <label id="question23-C"><input class="radio" type="radio" name="question23" value="C"> C. Free university education in the UK</label><br>
+            <label id="question23-D"><input class="radio" type="radio" name="question23" value="D"> D. Free primary education in Wales</label><br>
+            <p id="result23"></p>
+        </div>
+        <div>
+            <p>24. Who directed the two British films 'Brief Encounter' and 'Lawrence of Arabia'?</p>
+            <label id="question24-A"><input class="radio" type="radio" name="question24" value="A"> A. Hugh Hundson</label><br>
+            <label id="question24-B"><input class="radio" type="radio" name="question24" value="B"> B. Alfred Hitchcock</label><br>
+            <label id="question24-C"><input class="radio" type="radio" name="question24" value="C"> C. David Lean</label><br>
+            <label id="question24-D"><input class="radio" type="radio" name="question24" value="D"> D. William Walton</label><br>
+           <p id="result24"></p>
+        </div>
+		
+		
+		<p id="final-result"></p>
+		<p class="buttons">
+        <button class="resultsbutton" type="button" onclick="showresults(correctAnswers)">Show Results</button>
+		</p>
+		
+    </form>
+	</section>
+	</main>
+</body>
+</html>
