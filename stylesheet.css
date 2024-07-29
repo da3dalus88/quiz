@@ -4,14 +4,6 @@
     .incorrect-answer {
     color: red;
     }	
-	.button:hover {
-      background-color:#aaa5ef;
-      transition: 0.7s;
-   }
-   .navlink:hover {
-      background-color:#aaa5ef;
-      transition: 0.7s;
-   }
    
    
 /* styles for desktop*/
@@ -47,7 +39,6 @@
 	text-align:center;
 	}
 
-	
 	button{
 	color: darkblue;
 	padding:10px;
@@ -60,6 +51,15 @@
    }
    .resultsbutton:hover{
    background-color:#aaa5ef;
+      transition: 0.7s;
+   }
+
+.button:hover {
+      background-color:#aaa5ef;
+      transition: 0.7s;
+   }
+   .navlink:hover {
+      background-color:#aaa5ef;
       transition: 0.7s;
    }
 	   
@@ -84,11 +84,13 @@
 	ul{
 	list-style-type: none;
 	padding: 10px;
+display: inline;
 	}
 	
 	ul li {
 	color: darkblue;
 	margin: 3px;
+display: inline;
 	}
 	
 	ul li a{
@@ -106,7 +108,9 @@
 	}
 
 .resultsbutton{
+display: block;
    width:100%;
+height:30px;
  }
 
  }
