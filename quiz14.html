@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+<script>
+const correctAnswers=['B','C','B','C','C','D','B','C','D','D','C','A','B','B','A','C','A','B','B','B','B','B','C','B'];
+</script></head>
+<body>
+<main class="main">
+  <aside class="sidebar">
+    <nav class="nav">
+      <ul>	  
+	  <li><button class="button" type="button" onclick="nextquiz()">Random Quiz</button><li>
+        <li><a class="navlink" href="quiz1.html">Quiz 1</a></li>
+        <li><a class="navlink" href="quiz2.html">Quiz 2</a></li>
+        <li><a class="navlink" href="quiz3.html">Quiz 3</a></li>
+		<li><a class="navlink" href="quiz4.html">Quiz 4</a></li>
+		<li><a class="navlink" href="quiz5.html">Quiz 5</a></li>
+		<li><a class="navlink" href="quiz6.html">Quiz 6</a></li>
+		<li><a class="navlink" href="quiz7.html">Quiz 7</a></li>
+		<li><a class="navlink" href="quiz8.html">Quiz 8</a></li>
+		<li><a class="navlink" href="quiz9.html">Quiz 9</a></li>
+		<li><a class="navlink" href="quiz10.html">Quiz 10</a></li>
+		<li><a class="navlink" href="quiz11.html">Quiz 11</a></li>
+		<li><a class="navlink" href="quiz12.html">Quiz 12</a></li>
+		<li><a class="navlink" href="quiz13.html">Quiz 13</a></li>
+		<li><a class="navlink" href="quiz14.html">Quiz 14</a></li>
+		<li><a class="navlink" href="quiz15.html">Quiz 15</a></li>
+		<li><a class="navlink" href="quiz16.html">Quiz 16</a></li>
+		<li><a class="navlink" href="quiz17.html">Quiz 17</a></li>
+		<li><a class="navlink" href="quiz18.html">Quiz 18</a></li>
+		<li><a class="navlink" href="quiz19.html">Quiz 19</a></li>
+		<li><a class="navlink" href="quiz20.html">Quiz 20</a></li>
+		<li><a class="navlink" href="quiz21.html">Quiz 21</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <section class="quiz">
+    <h1>Quiz 14</h1>
+    <form id="quiz-form">
+        
+		
+		<div>
+        <p>1. Who is the patron Saint of Northern Ireland?</p>
+        <div>
+            <label id="question1-A"><input class= "radio" input type="radio" name="question1" value="A"> A. St George</label><br>
+            <label id="question1-B"><input class= "radio" input type="radio" name="question1" value="B"> B. St Patrick</label><br>
+            <label id="question1-C"><input class= "radio" input type="radio" name="question1" value="C"> C. St Andrew</label><br>
+            <label id="question1-D"><input class= "radio" input type="radio" name="question1" value="D"> D. St David</label><br>
+            
+            <p id="result1"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>2. In 1776, which British colonies declared their independence?</p>
+        <div>
+            <label id="question2-A"><input class= "radio" input type="radio" name="question2" value="A"> A. North African</label><br>
+            <label id="question2-B"><input class= "radio" input type="radio" name="question2" value="B"> B. Asian</label><br>
+            <label id="question2-C"><input class= "radio" input type="radio" name="question2" value="C"> C. North American</label><br>
+            <label id="question2-D"><input class= "radio" input type="radio" name="question2" value="D"> D. South African</label><br>
+            
+            <p id="result2"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>3. Which territory is not a part of Great Britain?</p>
+        <div>
+            <label id="question3-A"><input class= "radio" input type="radio" name="question3" value="A"> A. Wales</label><br>
+            <label id="question3-B"><input class= "radio" input type="radio" name="question3" value="B"> B. Northern Ireland</label><br>
+            <label id="question3-C"><input class= "radio" input type="radio" name="question3" value="C"> C. England</label><br>
+            <label id="question3-D"><input class= "radio" input type="radio" name="question3" value="D"> D. Scotland</label><br>
+            
+            <p id="result3"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>4. How often are general elections held in the UK?</p>
+        <div>
+            <label id="question4-A"><input class= "radio" input type="radio" name="question4" value="A"> A. Every 3 years</label><br>
+            <label id="question4-B"><input class= "radio" input type="radio" name="question4" value="B"> B. Every 4 years</label><br>
+            <label id="question4-C"><input class= "radio" input type="radio" name="question4" value="C"> C. Every 5 years</label><br>
+            <label id="question4-D"><input class= "radio" input type="radio" name="question4" value="D"> D. Every 10 years</label><br>
+            
+            <p id="result4"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>5. What sort of church is the Church of Scotland?</p>
+        <div>
+            <label id="question5-A"><input class= "radio" input type="radio" name="question5" value="A"> A. Catholic</label><br>
+            <label id="question5-B"><input class= "radio" input type="radio" name="question5" value="B"> B. Baptist</label><br>
+            <label id="question5-C"><input class= "radio" input type="radio" name="question5" value="C"> C. Presbyterian</label><br>
+            <label id="question5-D"><input class= "radio" input type="radio" name="question5" value="D"> D. Methodist</label><br>
+            
+            <p id="result5"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>6. What is the King's speech about during the opening of the UK Parliament?</p>
+        <div>
+            <label id="question6-A"><input class= "radio" input type="radio" name="question6" value="A"> A. What the Royal family did the previous year</label><br>
+            <label id="question6-B"><input class= "radio" input type="radio" name="question6" value="B"> B. What the Government did the previous year</label><br>
+            <label id="question6-C"><input class= "radio" input type="radio" name="question6" value="C"> C. What business matters the Royal family will conduct in the year ahead</label><br>
+            <label id="question6-D"><input class= "radio" input type="radio" name="question6" value="D"> D. What the Government policies will be in the year ahead</label><br>
+            
+            <p id="result6"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>7. It is compulsory for 16 and 17-year-olds to join the National Citizen Service.</p>
+        <div>
+            <label id="question7-A"><input class= "radio" input type="radio" name="question7" value="A"> A. True</label><br>
+            <label id="question7-B"><input class= "radio" input type="radio" name="question7" value="B"> B. False</label><br>
+            
+            <p id="result7"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>8. What is the Cenotaph?</p>
+        <div>
+            <label id="question8-A"><input class= "radio" input type="radio" name="question8" value="A"> A. A flower</label><br>
+            <label id="question8-B"><input class= "radio" input type="radio" name="question8" value="B"> B. A Christian church</label><br>
+            <label id="question8-C"><input class= "radio" input type="radio" name="question8" value="C"> C. A war memorial</label><br>
+            <label id="question8-D"><input class= "radio" input type="radio" name="question8" value="D"> D. A theatre</label><br>
+            
+            <p id="result8"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>9. When is St George's day?</p>
+        <div>
+            <label id="question9-A"><input class= "radio" input type="radio" name="question9" value="A"> A. 17 March</label><br>
+            <label id="question9-B"><input class= "radio" input type="radio" name="question9" value="B"> B. 30 November</label><br>
+            <label id="question9-C"><input class= "radio" input type="radio" name="question9" value="C"> C. 1 March</label><br>
+            <label id="question9-D"><input class= "radio" input type="radio" name="question9" value="D"> D. 23 April</label><br>
+            
+            <p id="result9"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>10. Who was the father of Queen Elizabeth I?</p>
+        <div>
+            <label id="question10-A"><input class= "radio" input type="radio" name="question10" value="A"> A. Edward I</label><br>
+            <label id="question10-B"><input class= "radio" input type="radio" name="question10" value="B"> B. Henry V</label><br>
+            <label id="question10-C"><input class= "radio" input type="radio" name="question10" value="C"> C. Henry VII</label><br>
+            <label id="question10-D"><input class= "radio" input type="radio" name="question10" value="D"> D. Henry VIII</label><br>
+            
+            <p id="result10"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>11. There are 15 national parks in England, Wales and Scotland. What are they?</p>
+        <div>
+            <label id="question11-A"><input class= "radio" input type="radio" name="question11" value="A"> A. Giant greenhouses</label><br>
+            <label id="question11-B"><input class= "radio" input type="radio" name="question11" value="B"> B. Land formations of columns made from volcanic lava</label><br>
+            <label id="question11-C"><input class= "radio" input type="radio" name="question11" value="C"> C. Areas of protected countryside</label><br>
+            <label id="question11-D"><input class= "radio" input type="radio" name="question11" value="D"> D. Medieval buildings</label><br>
+            
+            <p id="result11"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>12. Which flower is associated with Wales?</p>
+        <div>
+            <label id="question12-A"><input class= "radio" input type="radio" name="question12" value="A"> A. Daffodil</label><br>
+            <label id="question12-B"><input class= "radio" input type="radio" name="question12" value="B"> B. Rose</label><br>
+            <label id="question12-C"><input class= "radio" input type="radio" name="question12" value="C"> C. Shamrock</label><br>
+            <label id="question12-D"><input class= "radio" input type="radio" name="question12" value="D"> D. Thistle</label><br>
+            
+            <p id="result12"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>13. The assassination of the Archduke Franz Ferdinand of Austria in 1914 led to which war?</p>
+        <div>
+            <label id="question13-A"><input class= "radio" input type="radio" name="question13" value="A"> A. The Crimean War</label><br>
+            <label id="question13-B"><input class= "radio" input type="radio" name="question13" value="B"> B. The First World War</label><br>
+            <label id="question13-C"><input class= "radio" input type="radio" name="question13" value="C"> C. The Civil War</label><br>
+            <label id="question13-D"><input class= "radio" input type="radio" name="question13" value="D"> D. The Second World War</label><br>
+            
+            <p id="result13"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>14. The Bill of Rights of 1689 ensures the right to a fair trial.</p>
+        <div>
+            <label id="question14-A"><input class= "radio" input type="radio" name="question14" value="A"> A. True</label><br>
+            <label id="question14-B"><input class= "radio" input type="radio" name="question14" value="B"> B. False</label><br>
+            
+            <p id="result14"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>15. Who is the heir to the throne of Britain?</p>
+        <div>
+            <label id="question15-A"><input class= "radio" input type="radio" name="question15" value="A"> A. The Prince of Wales</label><br>
+            <label id="question15-B"><input class= "radio" input type="radio" name="question15" value="B"> B. The Prince of Cambridge</label><br>
+            <label id="question15-C"><input class= "radio" input type="radio" name="question15" value="C"> C. The Prince of Edinburgh</label><br>
+            <label id="question15-D"><input class= "radio" input type="radio" name="question15" value="D"> D. The Duke of York</label><br>
+            
+            <p id="result15"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>16. What happened to Mary, Queen of Scots, after being sent to prison for 20 years by Elizabeth I?</p>
+        <div>
+            <label id="question16-A"><input class= "radio" input type="radio" name="question16" value="A"> A. She got married.</label><br>
+            <label id="question16-B"><input class= "radio" input type="radio" name="question16" value="B"> B. She was sent to France.</label><br>
+            <label id="question16-C"><input class= "radio" input type="radio" name="question16" value="C"> C. She was executed.</label><br>
+            <label id="question16-D"><input class= "radio" input type="radio" name="question16" value="D"> D. She was sent to Scotland.</label><br>
+            
+            <p id="result16"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>17. Northern Ireland and Scotland have their own banknotes.</p>
+        <div>
+            <label id="question17-A"><input class= "radio" input type="radio" name="question17" value="A"> A. True</label><br>
+            <label id="question17-B"><input class= "radio" input type="radio" name="question17" value="B"> B. False</label><br>
+            
+            <p id="result17"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>18. What is the period called the Swinging Sixties known for?</p>
+        <div>
+            <label id="question18-A"><input class= "radio" input type="radio" name="question18" value="A"> A. A downgrade in manufacturing</label><br>
+            <label id="question18-B"><input class= "radio" input type="radio" name="question18" value="B"> B. A growth in British fashion and pop music</label><br>
+            <label id="question18-C"><input class= "radio" input type="radio" name="question18" value="C"> C. A shortage of water</label><br>
+            <label id="question18-D"><input class= "radio" input type="radio" name="question18" value="D"> D. A blockage of social laws</label><br>
+            
+            <p id="result18"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>19. How often are 'Prime Minister's Questions' held in the parliament?</p>
+        <div>
+            <label id="question19-A"><input class= "radio" input type="radio" name="question19" value="A"> A. Every day</label><br>
+            <label id="question19-B"><input class= "radio" input type="radio" name="question19" value="B"> B. Every week</label><br>
+            <label id="question19-C"><input class= "radio" input type="radio" name="question19" value="C"> C. Every two weeks</label><br>
+            <label id="question19-D"><input class= "radio" input type="radio" name="question19" value="D"> D. Once a month</label><br>
+            
+            <p id="result19"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>20. Which of the following statements is TRUE:</p>
+        <div>
+            <label id="question20-A"><input class= "radio" input type="radio" name="question20" value="A"> A. Mary Stuart was a Protestant</label><br>
+            <label id="question20-B"><input class= "radio" input type="radio" name="question20" value="B"> B. Mary Stuart was a Catholic</label><br>
+            
+            <p id="result20"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>21. Who was William Caxton?</p>
+        <div>
+            <label id="question21-A"><input class= "radio" input type="radio" name="question21" value="A"> A. A poet who wrote about a group of people going to Canterbury on a pilgrimage</label><br>
+            <label id="question21-B"><input class= "radio" input type="radio" name="question21" value="B"> B. The first person in England to print books using a printing press</label><br>
+            <label id="question21-C"><input class= "radio" input type="radio" name="question21" value="C"> C. The first person to sail singlehanded around the world</label><br>
+            <label id="question21-D"><input class= "radio" input type="radio" name="question21" value="D"> D. The inventor of the television</label><br>
+            
+            <p id="result21"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>22. Wales has its own established Church.</p>
+        <div>
+            <label id="question22-A"><input class= "radio" input type="radio" name="question22" value="A"> A. True</label><br>
+            <label id="question22-B"><input class= "radio" input type="radio" name="question22" value="B"> B. False</label><br>
+            
+            <p id="result22"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>23. Who chairs the debates at the House of Commons?</p>
+        <div>
+            <label id="question23-A"><input class= "radio" input type="radio" name="question23" value="A"> A. A Bishop</label><br>
+            <label id="question23-B"><input class= "radio" input type="radio" name="question23" value="B"> B. The Prime Minister</label><br>
+            <label id="question23-C"><input class= "radio" input type="radio" name="question23" value="C"> C. The Speaker</label><br>
+            <label id="question23-D"><input class= "radio" input type="radio" name="question23" value="D"> D. A Lord</label><br>
+            
+            <p id="result23"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>24. Who became Prime Minister after Margaret Thatcher?</p>
+        <div>
+            <label id="question24-A"><input class= "radio" input type="radio" name="question24" value="A"> A. James Callaghan</label><br>
+            <label id="question24-B"><input class= "radio" input type="radio" name="question24" value="B"> B. John Major</label><br>
+            <label id="question24-C"><input class= "radio" input type="radio" name="question24" value="C"> C. Tony Blair</label><br>
+            <label id="question24-D"><input class= "radio" input type="radio" name="question24" value="D"> D. Harold Wilson</label><br>
+            
+            <p id="result24"></p>
+        </div>
+    </div>
+		
+        <p id="final-result"></p>
+		<p class="buttons">
+        <button class="resultsbutton" type="button" onclick="showresults(correctAnswers)">Show Results</button>
+		</p>
+		
+    </form>
+	</section>
+	</main>
+</body>
+</html>

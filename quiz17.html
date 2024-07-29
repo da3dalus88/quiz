@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+<script>
+const correctAnswers=['D','D','C','A','C','A','D','C','D','A','C','C','C','A','C','A','D','A','D','B','B','B','C','C','D'];
+</script></head>
+<body>
+<main class="main">
+  <aside class="sidebar">
+    <nav class="nav">
+      <ul>	  
+	  <li><button class="button" type="button" onclick="nextquiz()">Random Quiz</button><li>
+        <li><a class="navlink" href="quiz1.html">Quiz 1</a></li>
+        <li><a class="navlink" href="quiz2.html">Quiz 2</a></li>
+        <li><a class="navlink" href="quiz3.html">Quiz 3</a></li>
+		<li><a class="navlink" href="quiz4.html">Quiz 4</a></li>
+		<li><a class="navlink" href="quiz5.html">Quiz 5</a></li>
+		<li><a class="navlink" href="quiz6.html">Quiz 6</a></li>
+		<li><a class="navlink" href="quiz7.html">Quiz 7</a></li>
+		<li><a class="navlink" href="quiz8.html">Quiz 8</a></li>
+		<li><a class="navlink" href="quiz9.html">Quiz 9</a></li>
+		<li><a class="navlink" href="quiz10.html">Quiz 10</a></li>
+		<li><a class="navlink" href="quiz11.html">Quiz 11</a></li>
+		<li><a class="navlink" href="quiz12.html">Quiz 12</a></li>
+		<li><a class="navlink" href="quiz13.html">Quiz 13</a></li>
+		<li><a class="navlink" href="quiz14.html">Quiz 14</a></li>
+		<li><a class="navlink" href="quiz15.html">Quiz 15</a></li>
+		<li><a class="navlink" href="quiz16.html">Quiz 16</a></li>
+		<li><a class="navlink" href="quiz17.html">Quiz 17</a></li>
+		<li><a class="navlink" href="quiz18.html">Quiz 18</a></li>
+		<li><a class="navlink" href="quiz19.html">Quiz 19</a></li>
+		<li><a class="navlink" href="quiz20.html">Quiz 20</a></li>
+		<li><a class="navlink" href="quiz21.html">Quiz 21</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <section class="quiz">
+    <h1>Quiz 17</h1>
+    <form id="quiz-form">
+        
+		
+		<div>
+        <p>1. Which armed force fought the Battle of Britain during WW2?</p>
+        <div>
+            <label id="question1-A"><input class= "radio" input type="radio" name="question1" value="A"> A. The Royal Navy</label><br>
+            <label id="question1-B"><input class= "radio" input type="radio" name="question1" value="B"> B. The Police Force</label><br>
+            <label id="question1-C"><input class= "radio" input type="radio" name="question1" value="C"> C. The Naval Service</label><br>
+            <label id="question1-D"><input class= "radio" input type="radio" name="question1" value="D"> D. The Royal Air Force</label><br>
+            
+            <p id="result1"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>2. Haggis is a traditional food from which area?</p>
+        <div>
+            <label id="question2-A"><input class= "radio" input type="radio" name="question2" value="A"> A. Wales</label><br>
+            <label id="question2-B"><input class= "radio" input type="radio" name="question2" value="B"> B. England</label><br>
+            <label id="question2-C"><input class= "radio" input type="radio" name="question2" value="C"> C. Northern Ireland</label><br>
+            <label id="question2-D"><input class= "radio" input type="radio" name="question2" value="D"> D. Scotland</label><br>
+            
+            <p id="result2"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>3. Who were the first people to live in Britain in what we call the Stone Age?</p>
+        <div>
+            <label id="question3-A"><input class= "radio" input type="radio" name="question3" value="A"> A. Farmers</label><br>
+            <label id="question3-B"><input class= "radio" input type="radio" name="question3" value="B"> B. Peasants</label><br>
+            <label id="question3-C"><input class= "radio" input type="radio" name="question3" value="C"> C. Hunter-gatherers</label><br>
+            <label id="question3-D"><input class= "radio" input type="radio" name="question3" value="D"> D. Pirates</label><br>
+            
+            <p id="result3"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>4. Anyone who is violent towards their partner - whether they are a man or a woman, married or living together - can be prosecuted.</p>
+        <div>
+            <label id="question4-A"><input class= "radio" input type="radio" name="question4" value="A"> A. True</label><br>
+            <label id="question4-B"><input class= "radio" input type="radio" name="question4" value="B"> B. False</label><br>
+            
+            <p id="result4"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>5. What is the capital city of Scotland?</p>
+        <div>
+            <label id="question5-A"><input class= "radio" input type="radio" name="question5" value="A"> A. Glasgow</label><br>
+            <label id="question5-B"><input class= "radio" input type="radio" name="question5" value="B"> B. St Andrews</label><br>
+            <label id="question5-C"><input class= "radio" input type="radio" name="question5" value="C"> C. Edinburgh</label><br>
+            <label id="question5-D"><input class= "radio" input type="radio" name="question5" value="D"> D. Aberdeen</label><br>
+            
+            <p id="result5"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>6. Why was the British promised 'Home Rule' for Ireland delayed until 1920?</p>
+        <div>
+            <label id="question6-A"><input class= "radio" input type="radio" name="question6" value="A"> A. Due to the outbreak of World War I</label><br>
+            <label id="question6-B"><input class= "radio" input type="radio" name="question6" value="B"> B. Due to the outbreak of World War II</label><br>
+            <label id="question6-C"><input class= "radio" input type="radio" name="question6" value="C"> C. Because the King was opposed</label><br>
+            <label id="question6-D"><input class= "radio" input type="radio" name="question6" value="D"> D. Due to the outbreak of the Black Death</label><br>
+            
+            <p id="result6"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>7. Which of the following poets was inspired by nature?</p>
+        <div>
+            <label id="question7-A"><input class= "radio" input type="radio" name="question7" value="A"> A. John Masefield</label><br>
+            <label id="question7-B"><input class= "radio" input type="radio" name="question7" value="B"> B. Wilfred Owen</label><br>
+            <label id="question7-C"><input class= "radio" input type="radio" name="question7" value="C"> C. Siegfried Sassoon</label><br>
+            <label id="question7-D"><input class= "radio" input type="radio" name="question7" value="D"> D. William Wordsworth</label><br>
+            
+            <p id="result7"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>8. How often are the members of the Welsh Parliament elected?</p>
+        <div>
+            <label id="question8-A"><input class= "radio" input type="radio" name="question8" value="A"> A. Every 2 years</label><br>
+            <label id="question8-B"><input class= "radio" input type="radio" name="question8" value="B"> B. Every 3 years</label><br>
+            <label id="question8-C"><input class= "radio" input type="radio" name="question8" value="C"> C. Every 4 years</label><br>
+            <label id="question8-D"><input class= "radio" input type="radio" name="question8" value="D"> D. Every 5 years</label><br>
+            
+            <p id="result8"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>9. James I was King of which country before becoming King of England?</p>
+        <div>
+            <label id="question9-A"><input class= "radio" input type="radio" name="question9" value="A"> A. Wales</label><br>
+            <label id="question9-B"><input class= "radio" input type="radio" name="question9" value="B"> B. Ireland</label><br>
+            <label id="question9-C"><input class= "radio" input type="radio" name="question9" value="C"> C. France</label><br>
+            <label id="question9-D"><input class= "radio" input type="radio" name="question9" value="D"> D. Scotland</label><br>
+            
+            <p id="result9"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>10. Which of the following charities helps protect children?</p>
+        <div>
+            <label id="question10-A"><input class= "radio" input type="radio" name="question10" value="A"> A. NSPCC</label><br>
+            <label id="question10-B"><input class= "radio" input type="radio" name="question10" value="B"> B. Shelter</label><br>
+            <label id="question10-C"><input class= "radio" input type="radio" name="question10" value="C"> C. Friends of the Earth</label><br>
+            <label id="question10-D"><input class= "radio" input type="radio" name="question10" value="D"> D. Crisis</label><br>
+            
+            <p id="result10"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>11. What is the Turner Prize?</p>
+        <div>
+            <label id="question11-A"><input class= "radio" input type="radio" name="question11" value="A"> A. A literature award</label><br>
+            <label id="question11-B"><input class= "radio" input type="radio" name="question11" value="B"> B. A music award</label><br>
+            <label id="question11-C"><input class= "radio" input type="radio" name="question11" value="C"> C. A contemporary art award</label><br>
+            <label id="question11-D"><input class= "radio" input type="radio" name="question11" value="D"> D. A theatre award</label><br>
+            
+            <p id="result11"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>12. Where was Anne Boleyn, the wife of Henry VIII, executed?</p>
+        <div>
+            <label id="question12-A"><input class= "radio" input type="radio" name="question12" value="A"> A. Houses of the Parliament</label><br>
+            <label id="question12-B"><input class= "radio" input type="radio" name="question12" value="B"> B. Stonehenge</label><br>
+            <label id="question12-C"><input class= "radio" input type="radio" name="question12" value="C"> C. Tower of London</label><br>
+            <label id="question12-D"><input class= "radio" input type="radio" name="question12" value="D"> D. Whitehall</label><br>
+            
+            <p id="result12"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>13. When was the Magna Carta agreed by the king?</p>
+        <div>
+            <label id="question13-A"><input class= "radio" input type="radio" name="question13" value="A"> A. 1652</label><br>
+            <label id="question13-B"><input class= "radio" input type="radio" name="question13" value="B"> B. 1585</label><br>
+            <label id="question13-C"><input class= "radio" input type="radio" name="question13" value="C"> C. 1215</label><br>
+            <label id="question13-D"><input class= "radio" input type="radio" name="question13" value="D"> D. 1066</label><br>
+            
+            <p id="result13"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>14. Which film series produced in the UK was one of the most commercially successful films of all time and one of the highest-grossing film franchises?</p>
+        <div>
+            <label id="question14-A"><input class= "radio" input type="radio" name="question14" value="A"> A. Harry Potter</label><br>
+            <label id="question14-B"><input class= "radio" input type="radio" name="question14" value="B"> B. Spider-man</label><br>
+            <label id="question14-C"><input class= "radio" input type="radio" name="question14" value="C"> C. The Lord of the Rings</label><br>
+            <label id="question14-D"><input class= "radio" input type="radio" name="question14" value="D"> D. Indiana Jones</label><br>
+            
+            <p id="result14"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>15. During which period did the Beatles become popular and social laws were liberalised?</p>
+        <div>
+            <label id="question15-A"><input class= "radio" input type="radio" name="question15" value="A"> A. 1950s</label><br>
+            <label id="question15-B"><input class= "radio" input type="radio" name="question15" value="B"> B. 1970s</label><br>
+            <label id="question15-C"><input class= "radio" input type="radio" name="question15" value="C"> C. 1960s</label><br>
+            <label id="question15-D"><input class= "radio" input type="radio" name="question15" value="D"> D. 1980s</label><br>
+            
+            <p id="result15"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>16. Elizabeth I found a balance between Catholics and Protestants. But which was she?</p>
+        <div>
+            <label id="question16-A"><input class= "radio" input type="radio" name="question16" value="A"> A. Elizabeth I was a Protestant.</label><br>
+            <label id="question16-B"><input class= "radio" input type="radio" name="question16" value="B"> B. Elizabeth I was a Catholic.</label><br>
+            
+            <p id="result16"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>17. Between 1680 and 1720, refugees called Huguenots came to England. Where did they come from?</p>
+        <div>
+            <label id="question17-A"><input class= "radio" input type="radio" name="question17" value="A"> A. Pakistan</label><br>
+            <label id="question17-B"><input class= "radio" input type="radio" name="question17" value="B"> B. Germany</label><br>
+            <label id="question17-C"><input class= "radio" input type="radio" name="question17" value="C"> C. India</label><br>
+            <label id="question17-D"><input class= "radio" input type="radio" name="question17" value="D"> D. France</label><br>
+            
+            <p id="result17"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>18. What song is sung by people in the UK and other countries when they are celebrating the New Year?</p>
+        <div>
+            <label id="question18-A"><input class= "radio" input type="radio" name="question18" value="A"> A. Auld Lang Syne</label><br>
+            <label id="question18-B"><input class= "radio" input type="radio" name="question18" value="B"> B. The British Anthem</label><br>
+            <label id="question18-C"><input class= "radio" input type="radio" name="question18" value="C"> C. Jingle Bells</label><br>
+            <label id="question18-D"><input class= "radio" input type="radio" name="question18" value="D"> D. White Christmas</label><br>
+            
+            <p id="result18"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>19. What was the religion of the Puritans?</p>
+        <div>
+            <label id="question19-A"><input class= "radio" input type="radio" name="question19" value="A"> A. Hindu</label><br>
+            <label id="question19-B"><input class= "radio" input type="radio" name="question19" value="B"> B. Catholic</label><br>
+            <label id="question19-C"><input class= "radio" input type="radio" name="question19" value="C"> C. Sikh</label><br>
+            <label id="question19-D"><input class= "radio" input type="radio" name="question19" value="D"> D. Protestant</label><br>
+            
+            <p id="result19"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>20. Proceedings in Parliament are broadcast on television and published in official reports known as:</p>
+        <div>
+            <label id="question20-A"><input class= "radio" input type="radio" name="question20" value="A"> A. Canvassing</label><br>
+            <label id="question20-B"><input class= "radio" input type="radio" name="question20" value="B"> B. Hansard</label><br>
+            <label id="question20-C"><input class= "radio" input type="radio" name="question20" value="C"> C. Cabinets</label><br>
+            <label id="question20-D"><input class= "radio" input type="radio" name="question20" value="D"> D. Domesday Book</label><br>
+            
+            <p id="result20"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>21. You have to be at least 21 years old to stand as MP.</p>
+        <div>
+            <label id="question21-A"><input class= "radio" input type="radio" name="question21" value="A"> A. True</label><br>
+            <label id="question21-B"><input class= "radio" input type="radio" name="question21" value="B"> B. False</label><br>
+            
+            <p id="result21"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>22. When was the last successful foreign invasion of England?</p>
+        <div>
+            <label id="question22-A"><input class= "radio" input type="radio" name="question22" value="A"> A. 1415</label><br>
+            <label id="question22-B"><input class= "radio" input type="radio" name="question22" value="B"> B. 1314</label><br>
+            <label id="question22-C"><input class= "radio" input type="radio" name="question22" value="C"> C. 1066</label><br>
+            <label id="question22-D"><input class= "radio" input type="radio" name="question22" value="D"> D. 1200</label><br>
+            
+            <p id="result22"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>23. What is the Commonwealth?</p>
+        <div>
+            <label id="question23-A"><input class= "radio" input type="radio" name="question23" value="A"> A. An organization responsible for the protection and promotion of human rights in its member countries.</label><br>
+            <label id="question23-B"><input class= "radio" input type="radio" name="question23" value="B"> B. A group of European and North American countries that have agreed to help each other if they come under attack.</label><br>
+            <label id="question23-C"><input class= "radio" input type="radio" name="question23" value="C"> C. An association of countries that support each other and work together towards shared goals in democracy and development.</label><br>
+            <label id="question23-D"><input class= "radio" input type="radio" name="question23" value="D"> D. An international organization that aims to prevent war and promote international peace and security.</label><br>
+            
+            <p id="result23"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>24. Who supported King Charles I during the Civil War?</p>
+        <div>
+            <label id="question24-A"><input class= "radio" input type="radio" name="question24" value="A"> A. Roundheads</label><br>
+            <label id="question24-B"><input class= "radio" input type="radio" name="question24" value="B"> B. Suffragettes</label><br>
+            <label id="question24-C"><input class= "radio" input type="radio" name="question24" value="C"> C. Quakers</label><br>
+            <label id="question24-D"><input class= "radio" input type="radio" name="question24" value="D"> D. Cavaliers</label><br>
+            
+            <p id="result24"></p>
+        </div>
+    </div>
+		
+        <p id="final-result"></p>
+		<p class="buttons">
+        <button class="resultsbutton" type="button" onclick="showresults(correctAnswers)">Show Results</button>
+		</p>
+		
+    </form>
+	</section>
+	</main>
+</body>
+</html>

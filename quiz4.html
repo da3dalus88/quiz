@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+<script>
+const correctAnswers=['B',['B','D'],'D','C','D','A','A','A','A','D','C','D','B','A','B','B',['A','B'],'D','A','B','A','A','D','D'];
+</script></head>
+<body>
+<main class="main">
+  <aside class="sidebar">
+    <nav class="nav">
+      <ul>	  
+	  <li><button class="button" type="button" onclick="nextquiz()">Random Quiz</button><li>
+        <li><a class="navlink" href="quiz1.html">Quiz 1</a></li>
+        <li><a class="navlink" href="quiz2.html">Quiz 2</a></li>
+        <li><a class="navlink" href="quiz3.html">Quiz 3</a></li>
+		<li><a class="navlink" href="quiz4.html">Quiz 4</a></li>
+		<li><a class="navlink" href="quiz5.html">Quiz 5</a></li>
+		<li><a class="navlink" href="quiz6.html">Quiz 6</a></li>
+		<li><a class="navlink" href="quiz7.html">Quiz 7</a></li>
+		<li><a class="navlink" href="quiz8.html">Quiz 8</a></li>
+		<li><a class="navlink" href="quiz9.html">Quiz 9</a></li>
+		<li><a class="navlink" href="quiz10.html">Quiz 10</a></li>
+		<li><a class="navlink" href="quiz11.html">Quiz 11</a></li>
+		<li><a class="navlink" href="quiz12.html">Quiz 12</a></li>
+		<li><a class="navlink" href="quiz13.html">Quiz 13</a></li>
+		<li><a class="navlink" href="quiz14.html">Quiz 14</a></li>
+		<li><a class="navlink" href="quiz15.html">Quiz 15</a></li>
+		<li><a class="navlink" href="quiz16.html">Quiz 16</a></li>
+		<li><a class="navlink" href="quiz17.html">Quiz 17</a></li>
+		<li><a class="navlink" href="quiz18.html">Quiz 18</a></li>
+		<li><a class="navlink" href="quiz19.html">Quiz 19</a></li>
+		<li><a class="navlink" href="quiz20.html">Quiz 20</a></li>
+		<li><a class="navlink" href="quiz21.html">Quiz 21</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <section class="quiz">
+    <h1>Quiz 4</h1>
+    <form id="quiz-form">
+<div>
+    <p>1. After the Black Death, owners of large areas of land formed a new social class. What's their name?</p>
+    <label id="question1-A"><input class= "radio" input type="radio" name="question1" value="A"> A. The Tudors</label><br>
+    <label id="question1-B"><input class= "radio" input type="radio" name="question1" value="B"> B. The Gentry</label><br>
+    <label id="question1-C"><input class= "radio" input type="radio" name="question1" value="C"> C. The Serfs</label><br>
+    <label id="question1-D"><input class= "radio" input type="radio" name="question1" value="D"> D. The Clans</label><br>
+    
+    <p id="result1"></p>
+</div>
+<div>
+    <p>2. Which TWO of these literary pieces are the work of Welsh poet Dylan Thomas, who lived from 1914 until his death in New York in 1953?</p>
+    <label id="question2-A"><input class= "checkbox" input type="checkbox" name="question2" value="A"> A. Brave New World</label><br>
+    <label id="question2-B"><input class= "checkbox" input type="checkbox" name="question2" value="B"> B. Under Milk Wood</label><br>
+    <label id="question2-C"><input class= "checkbox" input type="checkbox" name="question2" value="C"> C. Nineteen Eighty-Four</label><br>
+    <label id="question2-D"><input class= "checkbox" input type="checkbox" name="question2" value="D"> D. Do Not Go Gentle Into That Good Night</label><br>
+    
+    <p id="result2"></p>
+</div>
+<div>
+    <p>3. What method is used to elect UK MPs?</p>
+    <label id="question3-A"><input class= "radio" input type="radio" name="question3" value="A"> A. Proportional Representation</label><br>
+    <label id="question3-B"><input class= "radio" input type="radio" name="question3" value="B"> B. Popularity</label><br>
+    <label id="question3-C"><input class= "radio" input type="radio" name="question3" value="C"> C. Instant Runoff</label><br>
+    <label id="question3-D"><input class= "radio" input type="radio" name="question3" value="D"> D. First Past The Post</label><br>
+    
+    <p id="result3"></p>
+</div>
+<div>
+    <p>4. What party won the election in 1945?</p>
+    <label id="question4-A"><input class= "radio" input type="radio" name="question4" value="A"> A. Conservative</label><br>
+    <label id="question4-B"><input class= "radio" input type="radio" name="question4" value="B"> B. Liberal Democrats</label><br>
+    <label id="question4-C"><input class= "radio" input type="radio" name="question4" value="C"> C. Labour</label><br>
+    <label id="question4-D"><input class= "radio" input type="radio" name="question4" value="D"> D. A coalition</label><br>
+    
+    <p id="result4"></p>
+</div>
+<div>
+    <p>5. Which country did NOT gain its independence from the British Empire in 1947?</p>
+    <label id="question5-A"><input class= "radio" input type="radio" name="question5" value="A"> A. India</label><br>
+    <label id="question5-B"><input class= "radio" input type="radio" name="question5" value="B"> B. Pakistan</label><br>
+    <label id="question5-C"><input class= "radio" input type="radio" name="question5" value="C"> C. Sri Lanka</label><br>
+    <label id="question5-D"><input class= "radio" input type="radio" name="question5" value="D"> D. The Caribbean</label><br>
+    
+    <p id="result5"></p>
+</div>
+<div>
+    <p>6. True or False. In England, police forces are independent of the government.</p>
+    <label id="question6-A"><input class= "radio" input type="radio" name="question6" value="A"> A. True</label><br>
+    <label id="question6-B"><input class= "radio" input type="radio" name="question6" value="B"> B. False</label><br>
+    
+    <p id="result6"></p>
+</div>
+<div>
+    <p>7. When did the American Colonies declare their independence?</p>
+    <label id="question7-A"><input class= "radio" input type="radio" name="question7" value="A"> A. 1776</label><br>
+    <label id="question7-B"><input class= "radio" input type="radio" name="question7" value="B"> B. 1733</label><br>
+    <label id="question7-C"><input class= "radio" input type="radio" name="question7" value="C"> C. 1749</label><br>
+    <label id="question7-D"><input class= "radio" input type="radio" name="question7" value="D"> D. 1783</label><br>
+    
+    <p id="result7"></p>
+</div>
+<div>
+    <p>8. Who discovered Insulin?</p>
+    <label id="question8-A"><input class= "radio" input type="radio" name="question8" value="A"> A. John Macleod</label><br>
+    <label id="question8-B"><input class= "radio" input type="radio" name="question8" value="B"> B. Mary Peters</label><br>
+    <label id="question8-C"><input class= "radio" input type="radio" name="question8" value="C"> C. Patrick Steptoe</label><br>
+    <label id="question8-D"><input class= "radio" input type="radio" name="question8" value="D"> D. Ian Wilmot</label><br>
+    
+    <p id="result8"></p>
+</div>
+<div>
+    <p>9. Which ship was one of the first to sail around the world?</p>
+    <label id="question9-A"><input class= "radio" input type="radio" name="question9" value="A"> A. Golden Hind</label><br>
+    <label id="question9-B"><input class= "radio" input type="radio" name="question9" value="B"> B. HMS Victory</label><br>
+    <label id="question9-C"><input class= "radio" input type="radio" name="question9" value="C"> C. The Ship of Royals</label><br>
+    <label id="question9-D"><input class= "radio" input type="radio" name="question9" value="D"> D. Royal Yacht Britannia</label><br>
+    
+    <p id="result9"></p>
+</div>
+<div>
+    <p>10. Which charity works to preserve important buildings?</p>
+    <label id="question10-A"><input class= "radio" input type="radio" name="question10" value="A"> A. NSPCC</label><br>
+    <label id="question10-B"><input class= "radio" input type="radio" name="question10" value="B"> B. Age UK</label><br>
+    <label id="question10-C"><input class= "radio" input type="radio" name="question10" value="C"> C. The Red Cross</label><br>
+    <label id="question10-D"><input class= "radio" input type="radio" name="question10" value="D"> D. The National Trust</label><br>
+    
+    <p id="result10"></p>
+</div>
+<div>
+    <p>11. When is St David's day?</p>
+    <label id="question11-A"><input class= "radio" input type="radio" name="question11" value="A"> A. 17th of March</label><br>
+    <label id="question11-B"><input class= "radio" input type="radio" name="question11" value="B"> B. 23rd of April</label><br>
+    <label id="question11-C"><input class= "radio" input type="radio" name="question11" value="C"> C. 1st of March</label><br>
+    <label id="question11-D"><input class= "radio" input type="radio" name="question11" value="D"> D. 30th of November</label><br>
+    
+    <p id="result11"></p>
+</div>
+<div>
+
+
+    <p>12. Which of the following is the St Patron of Scotland:</p>
+    <label id="question12-A"><input class= "radio" input type="radio" name="question12" value="A"> A. St David</label><br>
+    <label id="question12-B"><input class= "radio" input type="radio" name="question12" value="B"> B. St Patrick</label><br>
+    <label id="question12-C"><input class= "radio" input type="radio" name="question12" value="C"> C. St George</label><br>
+    <label id="question12-D"><input class= "radio" input type="radio" name="question12" value="D"> D. St Andrew</label><br>
+    
+    <p id="result12"></p>
+</div>
+<div>
+    <p>13. Who was the first Briton to win the Olympic gold medal in the 10,000 meters?</p>
+    <label id="question13-A"><input class= "radio" input type="radio" name="question13" value="A"> A. Bradley Wiggins</label><br>
+    <label id="question13-B"><input class= "radio" input type="radio" name="question13" value="B"> B. Mo Farah</label><br>
+    <label id="question13-C"><input class= "radio" input type="radio" name="question13" value="C"> C. Sir Chris Hoy</label><br>
+    <label id="question13-D"><input class= "radio" input type="radio" name="question13" value="D"> D. David Weir</label><br>
+    
+    <p id="result13"></p>
+</div>
+<div>
+    <p>14. The European Convention on Human Rights is incorporated into UK law, correct?</p>
+    <label id="question14-A"><input class= "radio" input type="radio" name="question14" value="A"> A. True</label><br>
+    <label id="question14-B"><input class= "radio" input type="radio" name="question14" value="B"> B. False</label><br>
+    
+    <p id="result14"></p>
+</div>
+<div>
+    <p>15. What created the United Kingdom of Great Britain and Ireland?</p>
+    <label id="question15-A"><input class= "radio" input type="radio" name="question15" value="A"> A. The Great Union</label><br>
+    <label id="question15-B"><input class= "radio" input type="radio" name="question15" value="B"> B. The Acts of Union</label><br>
+    <label id="question15-C"><input class= "radio" input type="radio" name="question15" value="C"> C. The Act of the governments</label><br>
+    <label id="question15-D"><input class= "radio" input type="radio" name="question15" value="D"> D. The Great governments</label><br>
+    
+    <p id="result15"></p>
+</div>
+<div>
+    <p>16. Which of the following statements is correct?</p>
+    <label id="question16-A"><input class= "radio" input type="radio" name="question16" value="A"> A. County Courts deal with criminal cases</label><br>
+    <label id="question16-B"><input class= "radio" input type="radio" name="question16" value="B"> B. County Courts deal with civil disputes</label><br>
+    
+    <p id="result16"></p>
+</div>
+<div>
+    <p>17. Following the Bill of Rights, for which TWO are Monarchs required to ask Parliament to renew funding for each year?</p>
+    <label id="question17-A"><input class= "checkbox" input type="checkbox" name="question17" value="A"> A. Army</label><br>
+    <label id="question17-B"><input class= "checkbox" input type="checkbox" name="question17" value="B"> B. Navy</label><br>
+    <label id="question17-C"><input class= "checkbox" input type="checkbox" name="question17" value="C"> C. Castles</label><br>
+    <label id="question17-D"><input class= "checkbox" input type="checkbox" name="question17" value="D"> D. Palaces</label><br>
+    
+    <p id="result17"></p>
+</div>
+<div>
+    <p>18. Where was Robert Burns from?</p>
+    <label id="question18-A"><input class= "radio" input type="radio" name="question18" value="A"> A. England</label><br>
+    <label id="question18-B"><input class= "radio" input type="radio" name="question18" value="B"> B. Northern Ireland</label><br>
+    <label id="question18-C"><input class= "radio" input type="radio" name="question18" value="C"> C. Wales</label><br>
+    <label id="question18-D"><input class= "radio" input type="radio" name="question18" value="D"> D. Scotland</label><br>
+    
+    <p id="result18"></p>
+</div>
+<div>
+    <p>19. Which British inventor was responsible for developing the television in the 1920s?</p>
+    <label id="question19-A"><input class= "radio" input type="radio" name="question19" value="A"> A. John Logie Baird</label><br>
+    <label id="question19-B"><input class= "radio" input type="radio" name="question19" value="B"> B. Sir Robert Watson-Watt</label><br>
+    <label id="question19-C"><input class= "radio" input type="radio" name="question19" value="C"> C. Sir Bernard Lovell</label><br>
+    <label id="question19-D"><input class= "radio" input type="radio" name="question19" value="D"> D. John Macleod</label><br>
+    
+    <p id="result19"></p>
+</div>
+<div>
+    <p>20. Where is the best-preserved prehistoric village 'Skara Brae on Orkney' located?</p>
+    <label id="question20-A"><input class= "radio" input type="radio" name="question20" value="A"> A. England</label><br>
+    <label id="question20-B"><input class= "radio" input type="radio" name="question20" value="B"> B. Scotland</label><br>
+    <label id="question20-C"><input class= "radio" input type="radio" name="question20" value="C"> C. Wales</label><br>
+    <label id="question20-D"><input class= "radio" input type="radio" name="question20" value="D"> D. Ireland</label><br>
+    
+    <p id="result20"></p>
+</div>
+<div>
+    <p>21. Who was John Constable?</p>
+    <label id="question21-A"><input class= "radio" input type="radio" name="question21" value="A"> A. A landscape painter, most famous for his works of Dedham Vale</label><br>
+    <label id="question21-B"><input class= "radio" input type="radio" name="question21" value="B"> B. An important contributor to the 'pop art' movement of the 1960s</label><br>
+    <label id="question21-C"><input class= "radio" input type="radio" name="question21" value="C"> C. A Welsh artist, best known for his engravings and stained glass</label><br>
+    <label id="question21-D"><input class= "radio" input type="radio" name="question21" value="D"> D. A very successful Northern Irish portrait painter</label><br>
+    
+    <p id="result21"></p>
+</div>
+<div>
+    <p>22. Which flower is associated with England?</p>
+    <label id="question22-A"><input class= "radio" input type="radio" name="question22" value="A"> A. Rose</label><br>
+    <label id="question22-B"><input class= "radio" input type="radio" name="question22" value="B"> B. Daffodil</label><br>
+    <label id="question22-C"><input class= "radio" input type="radio" name="question22" value="C"> C. Thistle</label><br>
+    <label id="question22-D"><input class= "radio" input type="radio" name="question22" value="D"> D. Shamrock</label><br>
+    
+    <p id="result22"></p>
+</div>
+<div>
+    <p>23. Geoffrey Chaucer is associated with which of the following stories?</p>
+    <label id="question23-A"><input class= "radio" input type="radio" name="question23" value="A"> A. The London Tales</label><br>
+    <label id="question23-B"><input class= "radio" input type="radio" name="question23" value="B"> B. The Kent Tales</label><br>
+    <label id="question23-C"><input class= "radio" input type="radio" name="question23" value="C"> C. The Reading Tales</label><br>
+    <label id="question23-D"><input class= "radio" input type="radio" name="question23" value="D"> D. The Canterbury Tales</label><br>
+    
+    <p id="result23"></p>
+</div>
+<div>
+    <p>24. Who built the Tower of London?</p>
+    <label id="question24-A"><input class= "radio" input type="radio" name="question24" value="A"> A. Oliver Cromwell</label><br>
+    <label id="question24-B"><input class= "radio" input type="radio" name="question24" value="B"> B. Elizabeth I</label><br>
+    <label id="question24-C"><input class= "radio" input type="radio" name="question24" value="C"> C. Henry VIII</label><br>
+    <label id="question24-D"><input class= "radio" input type="radio" name="question24" value="D"> D. William the Conqueror</label><br>
+    
+    <p id="result24"></p>
+</div>
+       <p id="final-result"></p>
+		<p class="buttons">
+        <button class="resultsbutton" type="button" onclick="showresults(correctAnswers)">Show Results</button>
+		</p>
+		
+    </form>
+	</section>
+	</main>
+</body>
+</html>

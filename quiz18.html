@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+<script>
+const correctAnswers=['B','A','D','C','D','B','C','A','C','A','D','B','A','C','C','A','A','D','C','A','C','C','A','A'];
+</script></head>
+<body>
+<main class="main">
+  <aside class="sidebar">
+    <nav class="nav">
+      <ul>	  
+	  <li><button class="button" type="button" onclick="nextquiz()">Random Quiz</button><li>
+        <li><a class="navlink" href="quiz1.html">Quiz 1</a></li>
+        <li><a class="navlink" href="quiz2.html">Quiz 2</a></li>
+        <li><a class="navlink" href="quiz3.html">Quiz 3</a></li>
+		<li><a class="navlink" href="quiz4.html">Quiz 4</a></li>
+		<li><a class="navlink" href="quiz5.html">Quiz 5</a></li>
+		<li><a class="navlink" href="quiz6.html">Quiz 6</a></li>
+		<li><a class="navlink" href="quiz7.html">Quiz 7</a></li>
+		<li><a class="navlink" href="quiz8.html">Quiz 8</a></li>
+		<li><a class="navlink" href="quiz9.html">Quiz 9</a></li>
+		<li><a class="navlink" href="quiz10.html">Quiz 10</a></li>
+		<li><a class="navlink" href="quiz11.html">Quiz 11</a></li>
+		<li><a class="navlink" href="quiz12.html">Quiz 12</a></li>
+		<li><a class="navlink" href="quiz13.html">Quiz 13</a></li>
+		<li><a class="navlink" href="quiz14.html">Quiz 14</a></li>
+		<li><a class="navlink" href="quiz15.html">Quiz 15</a></li>
+		<li><a class="navlink" href="quiz16.html">Quiz 16</a></li>
+		<li><a class="navlink" href="quiz17.html">Quiz 17</a></li>
+		<li><a class="navlink" href="quiz18.html">Quiz 18</a></li>
+		<li><a class="navlink" href="quiz19.html">Quiz 19</a></li>
+		<li><a class="navlink" href="quiz20.html">Quiz 20</a></li>
+		<li><a class="navlink" href="quiz21.html">Quiz 21</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <section class="quiz">
+    <h1>Quiz 18</h1>
+    <form id="quiz-form">
+        
+		
+		<div>
+        <p>1. How old do you have to be to buy alcohol in the UK?</p>
+        <div>
+            <label id="question1-A"><input class= "radio" input type="radio" name="question1" value="A"> A. 17</label><br>
+            <label id="question1-B"><input class= "radio" input type="radio" name="question1" value="B"> B. 18</label><br>
+            <label id="question1-C"><input class= "radio" input type="radio" name="question1" value="C"> C. 19</label><br>
+            <label id="question1-D"><input class= "radio" input type="radio" name="question1" value="D"> D. 20</label><br>
+            
+            <p id="result1"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>2. Where does the UK Parliament sit?</p>
+        <div>
+            <label id="question2-A"><input class= "radio" input type="radio" name="question2" value="A"> A. Westminster</label><br>
+            <label id="question2-B"><input class= "radio" input type="radio" name="question2" value="B"> B. Stormont</label><br>
+            <label id="question2-C"><input class= "radio" input type="radio" name="question2" value="C"> C. Holyrood</label><br>
+            <label id="question2-D"><input class= "radio" input type="radio" name="question2" value="D"> D. Senedd</label><br>
+            
+            <p id="result2"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>3. Which of the following tribes invaded Britain?</p>
+        <div>
+            <label id="question3-A"><input class= "radio" input type="radio" name="question3" value="A"> A. The Jutes</label><br>
+            <label id="question3-B"><input class= "radio" input type="radio" name="question3" value="B"> B. The Angles</label><br>
+            <label id="question3-C"><input class= "radio" input type="radio" name="question3" value="C"> C. The Saxons</label><br>
+            <label id="question3-D"><input class= "radio" input type="radio" name="question3" value="D"> D. All of the above</label><br>
+            
+            <p id="result3"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>4. Which of the following is NOT the responsibility of the MPs?</p>
+        <div>
+            <label id="question4-A"><input class= "radio" input type="radio" name="question4" value="A"> A. Scrutinise the government</label><br>
+            <label id="question4-B"><input class= "radio" input type="radio" name="question4" value="B"> B. Represent their constituency</label><br>
+            <label id="question4-C"><input class= "radio" input type="radio" name="question4" value="C"> C. Protect life and property</label><br>
+            <label id="question4-D"><input class= "radio" input type="radio" name="question4" value="D"> D. Debate important national issues</label><br>
+            
+            <p id="result4"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>5. Which hill fort from the Iron Age can be seen in the county of Dorset?</p>
+        <div>
+            <label id="question5-A"><input class= "radio" input type="radio" name="question5" value="A"> A. Conwy Castle</label><br>
+            <label id="question5-B"><input class= "radio" input type="radio" name="question5" value="B"> B. Caernarfon Castle</label><br>
+            <label id="question5-C"><input class= "radio" input type="radio" name="question5" value="C"> C. Edinburgh Castle</label><br>
+            <label id="question5-D"><input class= "radio" input type="radio" name="question5" value="D"> D. Maiden Castle</label><br>
+            
+            <p id="result5"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>6. What was the name of Sir Francis Drake's ship, one of the first to sail around the world?</p>
+        <div>
+            <label id="question6-A"><input class= "radio" input type="radio" name="question6" value="A"> A. The Golden Eye</label><br>
+            <label id="question6-B"><input class= "radio" input type="radio" name="question6" value="B"> B. The Golden Hind</label><br>
+            <label id="question6-C"><input class= "radio" input type="radio" name="question6" value="C"> C. Elizabeth</label><br>
+            <label id="question6-D"><input class= "radio" input type="radio" name="question6" value="D"> D. The Sharp</label><br>
+            
+            <p id="result6"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>7. The system of land ownership used by the Normans was called:</p>
+        <div>
+            <label id="question7-A"><input class= "radio" input type="radio" name="question7" value="A"> A. Clergy</label><br>
+            <label id="question7-B"><input class= "radio" input type="radio" name="question7" value="B"> B. Chartism</label><br>
+            <label id="question7-C"><input class= "radio" input type="radio" name="question7" value="C"> C. Feudalism</label><br>
+            <label id="question7-D"><input class= "radio" input type="radio" name="question7" value="D"> D. Imperialism</label><br>
+            
+            <p id="result7"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>8. Which island is located between England and Northern Ireland but is not in the UK?</p>
+        <div>
+            <label id="question8-A"><input class= "radio" input type="radio" name="question8" value="A"> A. The Isle of Man</label><br>
+            <label id="question8-B"><input class= "radio" input type="radio" name="question8" value="B"> B. Malta</label><br>
+            <label id="question8-C"><input class= "radio" input type="radio" name="question8" value="C"> C. Jersey</label><br>
+            <label id="question8-D"><input class= "radio" input type="radio" name="question8" value="D"> D. Fiji</label><br>
+            
+            <p id="result8"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>9. What sort of stories were collected in the Canterbury Tales written by Geoffrey Chaucer?</p>
+        <div>
+            <label id="question9-A"><input class= "radio" input type="radio" name="question9" value="A"> A. Love stories</label><br>
+            <label id="question9-B"><input class= "radio" input type="radio" name="question9" value="B"> B. Children's stories</label><br>
+            <label id="question9-C"><input class= "radio" input type="radio" name="question9" value="C"> C. Travellers' stories</label><br>
+            <label id="question9-D"><input class= "radio" input type="radio" name="question9" value="D"> D. War stories</label><br>
+            
+            <p id="result9"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>10. Hanukkah is a Jewish festival to remember the Jews' struggle for religious freedom.</p>
+        <div>
+            <label id="question10-A"><input class= "radio" input type="radio" name="question10" value="A"> A. True</label><br>
+            <label id="question10-B"><input class= "radio" input type="radio" name="question10" value="B"> B. False</label><br>
+            
+            <p id="result10"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>11. The Prime Minister has a country house outside London called:</p>
+        <div>
+            <label id="question11-A"><input class= "radio" input type="radio" name="question11" value="A"> A. Sparkle</label><br>
+            <label id="question11-B"><input class= "radio" input type="radio" name="question11" value="B"> B. Downing</label><br>
+            <label id="question11-C"><input class= "radio" input type="radio" name="question11" value="C"> C. Windsor</label><br>
+            <label id="question11-D"><input class= "radio" input type="radio" name="question11" value="D"> D. Chequers</label><br>
+            
+            <p id="result11"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>12. Who is the author of the famous play 'Macbeth'?</p>
+        <div>
+            <label id="question12-A"><input class= "radio" input type="radio" name="question12" value="A"> A. Alexander Thomas</label><br>
+            <label id="question12-B"><input class= "radio" input type="radio" name="question12" value="B"> B. William Shakespeare</label><br>
+            <label id="question12-C"><input class= "radio" input type="radio" name="question12" value="C"> C. Harold Pinter</label><br>
+            <label id="question12-D"><input class= "radio" input type="radio" name="question12" value="D"> D. Evelyn Waugh</label><br>
+            
+            <p id="result12"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>13. How many pence are there in a pound?</p>
+        <div>
+            <label id="question13-A"><input class= "radio" input type="radio" name="question13" value="A"> A. 100 pence</label><br>
+            <label id="question13-B"><input class= "radio" input type="radio" name="question13" value="B"> B. 50 pence</label><br>
+            <label id="question13-C"><input class= "radio" input type="radio" name="question13" value="C"> C. 60 pence</label><br>
+            <label id="question13-D"><input class= "radio" input type="radio" name="question13" value="D"> D. 10 pence</label><br>
+            
+            <p id="result13"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>14. When did the UK sign the European Convention on Human Rights?</p>
+        <div>
+            <label id="question14-A"><input class= "radio" input type="radio" name="question14" value="A"> A. 1940</label><br>
+            <label id="question14-B"><input class= "radio" input type="radio" name="question14" value="B"> B. 1945</label><br>
+            <label id="question14-C"><input class= "radio" input type="radio" name="question14" value="C"> C. 1950</label><br>
+            <label id="question14-D"><input class= "radio" input type="radio" name="question14" value="D"> D. 1973</label><br>
+            
+            <p id="result14"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>15. What does NATO stand for?</p>
+        <div>
+            <label id="question15-A"><input class= "radio" input type="radio" name="question15" value="A"> A. The North American Transparent Organisation</label><br>
+            <label id="question15-B"><input class= "radio" input type="radio" name="question15" value="B"> B. The North Atlantic Trust Organisation</label><br>
+            <label id="question15-C"><input class= "radio" input type="radio" name="question15" value="C"> C. The North Atlantic Treaty Organisation</label><br>
+            <label id="question15-D"><input class= "radio" input type="radio" name="question15" value="D"> D. The North American Treaty Organisation</label><br>
+            
+            <p id="result15"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>16. If you are self-employed:</p>
+        <div>
+            <label id="question16-A"><input class= "radio" input type="radio" name="question16" value="A"> A. You need to pay your own tax</label><br>
+            <label id="question16-B"><input class= "radio" input type="radio" name="question16" value="B"> B. Tax is automatically taken from your earnings by a specialised agency</label><br>
+            <label id="question16-C"><input class= "radio" input type="radio" name="question16" value="C"> C. You don't need to pay tax</label><br>
+            <label id="question16-D"><input class= "radio" input type="radio" name="question16" value="D"> D. You only need to pay tax on 50% of your earnings</label><br>
+            
+            <p id="result16"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>17. Which British painter is considered to be the artist who raised the profile of landscape painting?</p>
+        <div>
+            <label id="question17-A"><input class= "radio" input type="radio" name="question17" value="A"> A. Joseph Turner</label><br>
+            <label id="question17-B"><input class= "radio" input type="radio" name="question17" value="B"> B. David Allan</label><br>
+            <label id="question17-C"><input class= "radio" input type="radio" name="question17" value="C"> C. John Constable</label><br>
+            <label id="question17-D"><input class= "radio" input type="radio" name="question17" value="D"> D. Sir John Lavery</label><br>
+            
+            <p id="result17"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>18. In which city is the Millennium Stadium located?</p>
+        <div>
+            <label id="question18-A"><input class= "radio" input type="radio" name="question18" value="A"> A. Birmingham</label><br>
+            <label id="question18-B"><input class= "radio" input type="radio" name="question18" value="B"> B. Nottingham</label><br>
+            <label id="question18-C"><input class= "radio" input type="radio" name="question18" value="C"> C. Liverpool</label><br>
+            <label id="question18-D"><input class= "radio" input type="radio" name="question18" value="D"> D. Cardiff</label><br>
+            
+            <p id="result18"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>19. What was the population of the UK in 1700?</p>
+        <div>
+            <label id="question19-A"><input class= "radio" input type="radio" name="question19" value="A"> A. 1 million</label><br>
+            <label id="question19-B"><input class= "radio" input type="radio" name="question19" value="B"> B. 14 million</label><br>
+            <label id="question19-C"><input class= "radio" input type="radio" name="question19" value="C"> C. 5 million</label><br>
+            <label id="question19-D"><input class= "radio" input type="radio" name="question19" value="D"> D. 20 million</label><br>
+            
+            <p id="result19"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>20. Who gave Henry VIII the son he wanted, Edward?</p>
+        <div>
+            <label id="question20-A"><input class= "radio" input type="radio" name="question20" value="A"> A. Jane Seymour</label><br>
+            <label id="question20-B"><input class= "radio" input type="radio" name="question20" value="B"> B. Catherine of Aragon</label><br>
+            <label id="question20-C"><input class= "radio" input type="radio" name="question20" value="C"> C. Anne of Cleves</label><br>
+            <label id="question20-D"><input class= "radio" input type="radio" name="question20" value="D"> D. Catherine Parr</label><br>
+            
+            <p id="result20"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>21. Which of the following countries is NOT a member of the Commonwealth?</p>
+        <div>
+            <label id="question21-A"><input class= "radio" input type="radio" name="question21" value="A"> A. Ghana</label><br>
+            <label id="question21-B"><input class= "radio" input type="radio" name="question21" value="B"> B. Cyprus</label><br>
+            <label id="question21-C"><input class= "radio" input type="radio" name="question21" value="C"> C. Greece</label><br>
+            <label id="question21-D"><input class= "radio" input type="radio" name="question21" value="D"> D. Sierra Leone</label><br>
+            
+            <p id="result21"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>22. How many American colonies declared their independence in 1776, stating that people had a right to establish their own governments?</p>
+        <div>
+            <label id="question22-A"><input class= "radio" input type="radio" name="question22" value="A"> A. 11</label><br>
+            <label id="question22-B"><input class= "radio" input type="radio" name="question22" value="B"> B. 12</label><br>
+            <label id="question22-C"><input class= "radio" input type="radio" name="question22" value="C"> C. 13</label><br>
+            <label id="question22-D"><input class= "radio" input type="radio" name="question22" value="D"> D. 14</label><br>
+            
+            <p id="result22"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>23. Which of the following contains great examples of stained glass?</p>
+        <div>
+            <label id="question23-A"><input class= "radio" input type="radio" name="question23" value="A"> A. York Minster</label><br>
+            <label id="question23-B"><input class= "radio" input type="radio" name="question23" value="B"> B. Bayeux Tapestry</label><br>
+            <label id="question23-C"><input class= "radio" input type="radio" name="question23" value="C"> C. Hadrian's Wall</label><br>
+            <label id="question23-D"><input class= "radio" input type="radio" name="question23" value="D"> D. Magna Carta</label><br>
+            
+            <p id="result23"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>24. In which city is Holyrood located?</p>
+        <div>
+            <label id="question24-A"><input class= "radio" input type="radio" name="question24" value="A"> A. Edinburgh</label><br>
+            <label id="question24-B"><input class= "radio" input type="radio" name="question24" value="B"> B. Belfast</label><br>
+            <label id="question24-C"><input class= "radio" input type="radio" name="question24" value="C"> C. Aberdeen</label><br>
+            <label id="question24-D"><input class= "radio" input type="radio" name="question24" value="D"> D. Glasgow</label><br>
+            
+            <p id="result24"></p>
+        </div>
+    </div>
+		
+        <p id="final-result"></p>
+		<p class="buttons">
+        <button class="resultsbutton" type="button" onclick="showresults(correctAnswers)">Show Results</button>
+		</p>
+		
+    </form>
+	</section>
+	</main>
+</body>
+</html>

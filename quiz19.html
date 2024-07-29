@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js"></script>
+<script>
+const correctAnswers=['D','B','B','C','D','A','A','C','B','C','C','A','A','C','B','D','D','C','C','B','B',['A','C'],'B','B'];
+</script></head>
+<body>
+<main class="main">
+  <aside class="sidebar">
+    <nav class="nav">
+      <ul>	  
+	  <li><button class="button" type="button" onclick="nextquiz()">Random Quiz</button><li>
+        <li><a class="navlink" href="quiz1.html">Quiz 1</a></li>
+        <li><a class="navlink" href="quiz2.html">Quiz 2</a></li>
+        <li><a class="navlink" href="quiz3.html">Quiz 3</a></li>
+		<li><a class="navlink" href="quiz4.html">Quiz 4</a></li>
+		<li><a class="navlink" href="quiz5.html">Quiz 5</a></li>
+		<li><a class="navlink" href="quiz6.html">Quiz 6</a></li>
+		<li><a class="navlink" href="quiz7.html">Quiz 7</a></li>
+		<li><a class="navlink" href="quiz8.html">Quiz 8</a></li>
+		<li><a class="navlink" href="quiz9.html">Quiz 9</a></li>
+		<li><a class="navlink" href="quiz10.html">Quiz 10</a></li>
+		<li><a class="navlink" href="quiz11.html">Quiz 11</a></li>
+		<li><a class="navlink" href="quiz12.html">Quiz 12</a></li>
+		<li><a class="navlink" href="quiz13.html">Quiz 13</a></li>
+		<li><a class="navlink" href="quiz14.html">Quiz 14</a></li>
+		<li><a class="navlink" href="quiz15.html">Quiz 15</a></li>
+		<li><a class="navlink" href="quiz16.html">Quiz 16</a></li>
+		<li><a class="navlink" href="quiz17.html">Quiz 17</a></li>
+		<li><a class="navlink" href="quiz18.html">Quiz 18</a></li>
+		<li><a class="navlink" href="quiz19.html">Quiz 19</a></li>
+		<li><a class="navlink" href="quiz20.html">Quiz 20</a></li>
+		<li><a class="navlink" href="quiz21.html">Quiz 21</a></li>
+      </ul>
+    </nav>
+  </aside>
+  <section class="quiz">
+    <h1>Quiz 19</h1>
+    <form id="quiz-form">
+        
+		
+		<div>
+        <p>1. When is the anniversary of the Battle of the Boyne celebrated in Northern Ireland?</p>
+        <div>
+            <label id="question1-A"><input class= "radio" input type="radio" name="question1" value="A"> A. March</label><br>
+            <label id="question1-B"><input class= "radio" input type="radio" name="question1" value="B"> B. May</label><br>
+            <label id="question1-C"><input class= "radio" input type="radio" name="question1" value="C"> C. June</label><br>
+            <label id="question1-D"><input class= "radio" input type="radio" name="question1" value="D"> D. July</label><br>
+            
+            <p id="result1"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>2. Which famous murder mystery play has been running in the West End since 1952 and has had the longest initial run of any show in history?</p>
+        <div>
+            <label id="question2-A"><input class= "radio" input type="radio" name="question2" value="A"> A. The Phantom of the Opera</label><br>
+            <label id="question2-B"><input class= "radio" input type="radio" name="question2" value="B"> B. The Mousetrap</label><br>
+            <label id="question2-C"><input class= "radio" input type="radio" name="question2" value="C"> C. Evita</label><br>
+            <label id="question2-D"><input class= "radio" input type="radio" name="question2" value="D"> D. Jesus Christ Superstar</label><br>
+            
+            <p id="result2"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>3. What was the ability of the Harrier jump jet aircraft?</p>
+        <div>
+            <label id="question3-A"><input class= "radio" input type="radio" name="question3" value="A"> A. To carry 1,000 passengers</label><br>
+            <label id="question3-B"><input class= "radio" input type="radio" name="question3" value="B"> B. To take off vertically</label><br>
+            <label id="question3-C"><input class= "radio" input type="radio" name="question3" value="C"> C. To float on water</label><br>
+            <label id="question3-D"><input class= "radio" input type="radio" name="question3" value="D"> D. To reach supersonic speeds</label><br>
+            
+            <p id="result3"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>4. When did the development of a free press take place?</p>
+        <div>
+            <label id="question4-A"><input class= "radio" input type="radio" name="question4" value="A"> A. 1795</label><br>
+            <label id="question4-B"><input class= "radio" input type="radio" name="question4" value="B"> B. 1685</label><br>
+            <label id="question4-C"><input class= "radio" input type="radio" name="question4" value="C"> C. 1695</label><br>
+            <label id="question4-D"><input class= "radio" input type="radio" name="question4" value="D"> D. 1785</label><br>
+            
+            <p id="result4"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>5. Which of the following is traditional British food?</p>
+        <div>
+            <label id="question5-A"><input class= "radio" input type="radio" name="question5" value="A"> A. Pasta carbonara</label><br>
+            <label id="question5-B"><input class= "radio" input type="radio" name="question5" value="B"> B. Green curry</label><br>
+            <label id="question5-C"><input class= "radio" input type="radio" name="question5" value="C"> C. Tacos</label><br>
+            <label id="question5-D"><input class= "radio" input type="radio" name="question5" value="D"> D. Fish and chips</label><br>
+            
+            <p id="result5"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>6. In the UK, if the jury finds a defendant guilty, the judge decides the penalty:</p>
+        <div>
+            <label id="question6-A"><input class= "radio" input type="radio" name="question6" value="A"> A. True</label><br>
+            <label id="question6-B"><input class= "radio" input type="radio" name="question6" value="B"> B. False</label><br>
+            
+            <p id="result6"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>7. Who was the first person to print books using a printing press in England?</p>
+        <div>
+            <label id="question7-A"><input class= "radio" input type="radio" name="question7" value="A"> A. William Caxton</label><br>
+            <label id="question7-B"><input class= "radio" input type="radio" name="question7" value="B"> B. Geoffrey Chaucer</label><br>
+            <label id="question7-C"><input class= "radio" input type="radio" name="question7" value="C"> C. John Barbour</label><br>
+            <label id="question7-D"><input class= "radio" input type="radio" name="question7" value="D"> D. Jane Austen</label><br>
+            
+            <p id="result7"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>8. The Scottish Parliament cannot legislate on which of the following matters?</p>
+        <div>
+            <label id="question8-A"><input class= "radio" input type="radio" name="question8" value="A"> A. Health</label><br>
+            <label id="question8-B"><input class= "radio" input type="radio" name="question8" value="B"> B. Education</label><br>
+            <label id="question8-C"><input class= "radio" input type="radio" name="question8" value="C"> C. Immigration</label><br>
+            <label id="question8-D"><input class= "radio" input type="radio" name="question8" value="D"> D. Tax</label><br>
+            
+            <p id="result8"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>9. Which of the following is the official Church of the State?</p>
+        <div>
+            <label id="question9-A"><input class= "radio" input type="radio" name="question9" value="A"> A. The Church of Great Britain</label><br>
+            <label id="question9-B"><input class= "radio" input type="radio" name="question9" value="B"> B. The Church of England</label><br>
+            <label id="question9-C"><input class= "radio" input type="radio" name="question9" value="C"> C. The Church of the United Kingdom</label><br>
+            <label id="question9-D"><input class= "radio" input type="radio" name="question9" value="D"> D. The British Church</label><br>
+            
+            <p id="result9"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>10. What is the official name of the country called the UK?</p>
+        <div>
+            <label id="question10-A"><input class= "radio" input type="radio" name="question10" value="A"> A. The United Kingdom of Great Britain and Southern Ireland.</label><br>
+            <label id="question10-B"><input class= "radio" input type="radio" name="question10" value="B"> B. The United Kingdom of Great Britain and Ireland.</label><br>
+            <label id="question10-C"><input class= "radio" input type="radio" name="question10" value="C"> C. The United Kingdom of Great Britain and Northern Ireland.</label><br>
+            <label id="question10-D"><input class= "radio" input type="radio" name="question10" value="D"> D. The United Kingdom and Great Ireland.</label><br>
+            
+            <p id="result10"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>11. Which of the following is an ancient festival that has roots in the pagan festival to mark the beginning of winter?</p>
+        <div>
+            <label id="question11-A"><input class= "radio" input type="radio" name="question11" value="A"> A. Lent</label><br>
+            <label id="question11-B"><input class= "radio" input type="radio" name="question11" value="B"> B. Easter</label><br>
+            <label id="question11-C"><input class= "radio" input type="radio" name="question11" value="C"> C. Halloween</label><br>
+            <label id="question11-D"><input class= "radio" input type="radio" name="question11" value="D"> D. Hogmanay</label><br>
+            
+            <p id="result11"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>12. How old was Edward VI, son of Henry VIII, when he died?</p>
+        <div>
+            <label id="question12-A"><input class= "radio" input type="radio" name="question12" value="A"> A. 15 years old</label><br>
+            <label id="question12-B"><input class= "radio" input type="radio" name="question12" value="B"> B. 1 year old</label><br>
+            <label id="question12-C"><input class= "radio" input type="radio" name="question12" value="C"> C. 6 years old</label><br>
+            <label id="question12-D"><input class= "radio" input type="radio" name="question12" value="D"> D. 37 years old</label><br>
+            
+            <p id="result12"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>13. Where was Isaac Newton from?</p>
+        <div>
+            <label id="question13-A"><input class= "radio" input type="radio" name="question13" value="A"> A. Lincolnshire</label><br>
+            <label id="question13-B"><input class= "radio" input type="radio" name="question13" value="B"> B. Stratford-upon-Avon</label><br>
+            <label id="question13-C"><input class= "radio" input type="radio" name="question13" value="C"> C. Cardiff</label><br>
+            <label id="question13-D"><input class= "radio" input type="radio" name="question13" value="D"> D. Edinburgh</label><br>
+            
+            <p id="result13"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>14. Who was the first person to lead a Roman invasion of Britain in 55 BC?</p>
+        <div>
+            <label id="question14-A"><input class= "radio" input type="radio" name="question14" value="A"> A. Emperor Claudius</label><br>
+            <label id="question14-B"><input class= "radio" input type="radio" name="question14" value="B"> B. Napoleon</label><br>
+            <label id="question14-C"><input class= "radio" input type="radio" name="question14" value="C"> C. Julius Caesar</label><br>
+            <label id="question14-D"><input class= "radio" input type="radio" name="question14" value="D"> D. William Caxton</label><br>
+            
+            <p id="result14"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>15. What was the nickname given to the Scottish poet Robert Burns?</p>
+        <div>
+            <label id="question15-A"><input class= "radio" input type="radio" name="question15" value="A"> A. The Great</label><br>
+            <label id="question15-B"><input class= "radio" input type="radio" name="question15" value="B"> B. The Bard</label><br>
+            <label id="question15-C"><input class= "radio" input type="radio" name="question15" value="C"> C. The Lover</label><br>
+            <label id="question15-D"><input class= "radio" input type="radio" name="question15" value="D"> D. The Scottish</label><br>
+            
+            <p id="result15"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>16. How long did the Hundred Years War between England and France really last?</p>
+        <div>
+            <label id="question16-A"><input class= "radio" input type="radio" name="question16" value="A"> A. 100 years</label><br>
+            <label id="question16-B"><input class= "radio" input type="radio" name="question16" value="B"> B. 189 years</label><br>
+            <label id="question16-C"><input class= "radio" input type="radio" name="question16" value="C"> C. 74 years</label><br>
+            <label id="question16-D"><input class= "radio" input type="radio" name="question16" value="D"> D. 116 years</label><br>
+            
+            <p id="result16"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>17. Who wrote the novel Charlie and the Chocolate Factory?</p>
+        <div>
+            <label id="question17-A"><input class= "radio" input type="radio" name="question17" value="A"> A. Rudyard Kipling</label><br>
+            <label id="question17-B"><input class= "radio" input type="radio" name="question17" value="B"> B. Sir William Golding</label><br>
+            <label id="question17-C"><input class= "radio" input type="radio" name="question17" value="C"> C. Charles Dickens</label><br>
+            <label id="question17-D"><input class= "radio" input type="radio" name="question17" value="D"> D. Roald Dahl</label><br>
+            
+            <p id="result17"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>18. Which of the following is NOT a city of the UK?</p>
+        <div>
+            <label id="question18-A"><input class= "radio" input type="radio" name="question18" value="A"> A. Belfast</label><br>
+            <label id="question18-B"><input class= "radio" input type="radio" name="question18" value="B"> B. Newport</label><br>
+            <label id="question18-C"><input class= "radio" input type="radio" name="question18" value="C"> C. Dublin</label><br>
+            <label id="question18-D"><input class= "radio" input type="radio" name="question18" value="D"> D. Dundee</label><br>
+            
+            <p id="result18"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>19. Which British explorer mapped the coast of Australia?</p>
+        <div>
+            <label id="question19-A"><input class= "radio" input type="radio" name="question19" value="A"> A. Sake Dean Mahomet</label><br>
+            <label id="question19-B"><input class= "radio" input type="radio" name="question19" value="B"> B. Richard Arkwright</label><br>
+            <label id="question19-C"><input class= "radio" input type="radio" name="question19" value="C"> C. Captain James Cook</label><br>
+            <label id="question19-D"><input class= "radio" input type="radio" name="question19" value="D"> D. Admiral Nelson</label><br>
+            
+            <p id="result19"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>20. Which of the following is a traditional character of the pantomimes?</p>
+        <div>
+            <label id="question20-A"><input class= "radio" input type="radio" name="question20" value="A"> A. The King</label><br>
+            <label id="question20-B"><input class= "radio" input type="radio" name="question20" value="B"> B. The Dame</label><br>
+            <label id="question20-C"><input class= "radio" input type="radio" name="question20" value="C"> C. A unicorn</label><br>
+            <label id="question20-D"><input class= "radio" input type="radio" name="question20" value="D"> D. A mermaid</label><br>
+           
+            <p id="result20"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>21. A National Insurance number proves to an employer that you have the right to work in the UK.</p>
+        <div>
+            <label id="question21-A"><input class= "radio" input type="radio" name="question21" value="A"> A. True</label><br>
+            <label id="question21-B"><input class= "radio" input type="radio" name="question21" value="B"> B. False</label><br>
+            
+            <p id="result21"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>22. What TWO names are associated with the landing in Normandy of Allied Forces during World War II?</p>
+        <div>
+            <label id="question22-A"><input class= "checkbox" input type="checkbox" name="question22" value="A"> A. D-Day</label><br>
+            <label id="question22-B"><input class= "checkbox" input type="checkbox" name="question22" value="B"> B. Domesday</label><br>
+            <label id="question22-C"><input class= "checkbox" input type="checkbox" name="question22" value="C"> C. Operation Overlord</label><br>
+            <label id="question22-D"><input class= "checkbox" input type="checkbox" name="question22" value="D"> D. Allies Day</label><br>
+            
+            <p id="result22"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>23. What was the biggest source of employment in Britain before the 18th century?</p>
+        <div>
+            <label id="question23-A"><input class= "radio" input type="radio" name="question23" value="A"> A. The shipping industry</label><br>
+            <label id="question23-B"><input class= "radio" input type="radio" name="question23" value="B"> B. Agriculture</label><br>
+            <label id="question23-C"><input class= "radio" input type="radio" name="question23" value="C"> C. Teaching</label><br>
+            <label id="question23-D"><input class= "radio" input type="radio" name="question23" value="D"> D. Manufacturing jobs</label><br>
+            
+            <p id="result23"></p>
+        </div>
+    </div>
+
+    <div>
+        <p>24. When was Ireland divided into two countries?</p>
+        <div>
+            <label id="question24-A"><input class= "radio" input type="radio" name="question24" value="A"> A. In 1920</label><br>
+            <label id="question24-B"><input class= "radio" input type="radio" name="question24" value="B"> B. In 1922</label><br>
+            <label id="question24-C"><input class= "radio" input type="radio" name="question24" value="C"> C. In 1925</label><br>
+            <label id="question24-D"><input class= "radio" input type="radio" name="question24" value="D"> D. In 1928</label><br>
+            
+            <p id="result24"></p>
+        </div>
+    </div>
+		
+        <p id="final-result"></p>
+		<p class="buttons">
+        <button class="resultsbutton" type="button" onclick="showresults(correctAnswers)">Show Results</button>
+		</p>
+		
+    </form>
+	</section>
+	</main>
+</body>
+</html>
